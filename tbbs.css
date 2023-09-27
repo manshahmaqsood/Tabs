@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&family=Space+Grotesk:wght@700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+html,body{
+	font-size: 18px;
+	font-family: arial;
+	line-height: 1.6;
+	font-family: 'Croissant One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.tab_navigation{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.tab_navigation li{
+	display: inline-block;
+	padding: 5px 15px;
+	background: rgb(214, 103, 214);
+	min-width: 100px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.tab_navigation li.active,
+.tab_navigation li:hover{
+	background: rgb(184, 105, 184);
+	color: black;
+	/* transform: rotate(2deg); */
+   
+}
+
+.tab_container{
+	padding: 10px;
+	background: rgb(184, 105, 184);
+	color: #fff;
+	border-radius: 0 5px 5px 5px;
+	display: none;
+	
+}
+button{
+	position: relative;
+	text-align: center;
+	width: 200px;
+	padding: 10px;
+	font-size: 25px;
+	color: purple;
+	font-family: 'Poppins';
+	font-weight: 600;
+	border: 5px solid purple;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+button:hover{
+	box-shadow: 0 5px 50px 0 purple inset , 0 5px 50px 0 purple; 
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid plum;
+  }
+  img:hover{
+	transform: scale(0.9);
+	box-shadow: 0 7px 50px 0 purple inset , 0 7px 50px 0 purple; 
+  }
+  .img-2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .img-2:hover {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+  }
